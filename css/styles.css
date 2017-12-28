@@ -1,0 +1,92 @@
+/* Import Roboto for Google Sign In buttons */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+#user-details-wrapper {
+  border: 2px solid lightsteelblue;
+  text-align: center;
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.email,
+.avatar,
+#sign-out {
+  margin: auto;
+  display: block;
+}
+
+.avatar {
+  border-radius: 95%;
+}
+
+#button-sign-out {
+  font-family: 'Roboto', arial, sans-serif;
+  display: inline-block;
+  justify-content: center;
+  font-size: 16px;
+  width: 240px;
+  height: 50px;
+  border-radius: 1px;
+  background-color: grey;
+  border: 1px solid transparent;
+  color: #fff;
+  box-shadow: 1px 1px 1px grey;
+}
+
+#button-sign-out:hover {
+  cursor: pointer;
+}
+
+
+#g-sign-in-wrapper {
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  border-radius: 1px;
+  background-color: #4285f4;
+  border: 1px solid transparent;
+  color: #fff;
+  box-shadow: 1px 1px 1px grey;
+}
+
+#g-sign-in-wrapper:hover {
+  cursor: pointer;
+}
+
+.g-icon-wrapper {
+  float: left;
+  width: 18px;
+  height: 20px;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 1px;
+  margin-right: 16px;
+}
+
+.button-text {
+  display: block;
+  font-family: 'Roboto', arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: .21px;
+  margin: 0 6px 0 6px;
+  line-height: 48px;
+  vertical-align: top;
+  text-align: center;
+}
+
+#button-sign-out-text {
+  display: block;
+  text-align: center;
+}
